@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Euripides Scholia: Source Files</title>
+	<meta name="generator" content="BBEdit 9.3">
+	<link rel="stylesheet" href="EurSchSite2023.css" type="text/css">
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<p class="indented16">Release210xml.zip contains the XML-related files:</p>
+<ul>
+
+<li>OrestesScholia1-1100.xml (or the same with a date extension added after 1100) is the large XML file of the <i>Orestes</i> arguments and scholia through line 1100.</li>
+<li>teiScholiaSchema2023.rng is the Relax NG schema file for the preceding.</li>
+	<li>scholiaAll2023.xsl is the file for XSLT processing to produce HTML of the complete set of scholia along with the arguments.</li>
+	<li>scholiaExegOnly2023.xsl is the file for XSLT processing to produce HTML of all the scholia of subtype ‘exeg’ (that is, eliminating paraphrases, glosses, and any other subtypes).</li>
+	<li>scholiaGlossOnly2023.xsl is the file for XSLT processing to produce HTML of the glosses alone, without the exegetic and paraphrase scholia.</li>
+	<li>scholiaMosch2023.xsl is the file for XSLT processing to produce HTML of the Moschopulean scholia (with the few Planudean included).</li>
+	<li>scholiaMoschThomTri2023.xsl is the file for XSLT processing to produce HTML of the Moschopulean (and Planudean), Thoman, and Triclinian scholia.</li>
+	<li>scholiaNoGloss2023.xsl is the file for XSLT processing to produce HTML of the set excluding glosses of all types (also excluded are diagrams and word order annotations).</li>
+	<li>scholiaRec2023.xsl is the file for XSLT processing to produce HTML of the set excluding the old scholia (those of type ‘vet’).</li>
+	<li>scholiaThom2023.xsl is the file for XSLT processing to produce HTML of the Thoman scholia.</li>
+	<li>scholiaTri2023.xsl is the file for XSLT processing to produce HTML of the Triclinian scholia.</li>
+	<li>scholiaVetOnly2023.xsl is the file for XSLT processing to produce HTML of the old scholia.</li>
+<li>the following subsidiary files that are referenced in include statements within the previous files:
+<ul>
+	<li>linksAndActions2023.xsl</li>
+	<li>match-bibl2023.xsl</li>
+	<li>match-div4s2023.xsl</li>
+	<li>match-segs2023.xsl</li>
+</ul>
+</li>	
+<li>triTreatises2023.xml is the XML file for the three short metrical treatises that precede the triad plays in Triclinius’ autograph copy T.</li>
+<li>triTreatisesModel2023.rng is the Relax NG schema file for the preceding.</li>
+<li>triTreatises.xsl is the file for XSLT processing to produce HTML of the Triclinian treatises.</li>
+<li>manuscripts20230421.xml is the XML file for the manuscripts page. </li>
+<li>manuscripts2023.rng is the Relax NG schema file for the preceding.</li>
+<li>manuscripts2023.xsl is the file for XSLT processing to produce HTML of the manuscripts page. </li>
+
+</ul>
+
+<p class="indented16">Release210html.zip contains the HTML files and the files related to them:
+</p>
+<ul>
+<li>images: 
+<ul>
+	<li>EurSchicon64x64.jpg (banner logo)</li>
+	<li>by-nc-sa.png (Creative Commons license logo)</li>
+	<li>favicon.ico (icon displayed with the tab name in some browsers)</li>
+</ul>
+</li>
+<li>EurSchSite2023.css: the CSS file for the site as a whole</li>
+<li>the files of the information pages of the site:
+<ul><li>index.html (the home page)</li>
+<li>EurSch2023_Abbreviations.html</li>
+<li>EurSch2023_About.html</li>
+<li>EurSch2023_Bibliography.html (or a similar filename with a date appended)</li>
+<li>EurSch2023_Keywords.html</li>
+<li>EurSch2023_Manuscripts.html</li>
+<li>EurSch2023_Preface.html</li>
+<li>EurSch2023_RevisionHistory.html</li>
+<li>EurSch2023_SiglaTable.html</li>
+<li>EurSch2023_Source.html</li>
+<li>EurSch2023_Structure.html</li>
+</ul>
+</li>
+<li>EurSiglaTable2020.xlsx (the table of EurSch2023_SiglaTable.html in spreadsheet format)</li>
+<li>the Folder named Edition, containing the following:
+<ul>
+<li>OrestesScholia_all.html: the file for the complete set</li>
+<li>OrestesScholia_exeg.html: the file for the exegetic scholia only</li>
+<li>OrestesScholia_glosses.html: the file for glosses only</li>
+<li>OrestesScholia_mosch.html: the file for Moschopulean scholia (with the few Planudean)</li>
+<li>OrestesScholia_MTT.html: the file for Moschopulean, Thoman, and Triclinian together</li>
+<li>OrestesScholia_noGloss.html: the file for scholia without glosses</li>
+<li>OrestesScholia_rec.html: the file for all types other than old (‘vet’)</li>
+<li>OrestesScholia_thom.html: the file for Thoman scholia</li>
+<li>OrestesScholia_treat.html: the file for the three Triclinian metrical treatises</li>
+<li>OrestesScholia_tri.html: the file for Triclinian scholia</li>
+<li>OrestesScholia_vet.html: the file for old scholia only</li>
+<li>selectActions2023.js: the javascript that processes the selection options on the above pages</li>
+
+<li>the Cascading Style Sheet alternatives that are activated by the selection option for display:<ul>
+	
+<li>scholiaEur1111display.css: the default CSS for showing all details (active when Edition is first loaded)</li>
+<li>scholiaEur1110display.css: the alternative CSS for showing the Greek scholia text with translation and main apparatus</li>
+<li>scholiaEur1100display.css: the alternative CSS for showing the Greek scholia text with translation</li>
+<li>scholiaEur1010display.css: the alternative CSS for showing the Greek scholia text with main apparatus</li>
+<li>scholiaEur1000display.css: the alternative CSS for showing the Greek scholia text only</li>
+<li>scholiaEurFullPrint.css: the alternative CSS for showing all details in black font for uniform printing</li>
+</ul>
+</li></ul>
+</ul>
+
+</body>
+</html>
